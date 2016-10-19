@@ -249,7 +249,7 @@ function portfolioComponent ({ data = {}, theme = {} } = {}) {
   }
   function unhoverPortfolio() { yo.update(element, template()) }
   function openNewTab() {
-    var url = "https://silarko.github.io/portfolioquiz/"
+    var url = "https://silarko.github.io/quiz/"
     var tab = window.open(url, '_blank')
     tab.focus()
   }
